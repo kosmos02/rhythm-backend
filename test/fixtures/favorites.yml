@@ -1,15 +1,7 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  artist: MyString
-  title: MyString
-  duration: 1
-  album: MyString
-  album_image: MyText
+  artist_id: 1
 
 two:
-  artist: MyString
-  title: MyString
-  duration: 1
-  album: MyString
-  album_image: MyText
+  artist_id: 1
