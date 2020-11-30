@@ -1,5 +1,5 @@
 class FavoritesController < ApplicationController
-    class FavoritesController < ApplicationController
+    
 
         def index
             @favorites = Favorite.all 
@@ -16,6 +16,5 @@ class FavoritesController < ApplicationController
         def create
             @favorite = Favorite.create(artist_id: params[:artist_id])
         end
-    end
     
 end
